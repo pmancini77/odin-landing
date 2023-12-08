@@ -1,0 +1,138 @@
+* {
+    font-family: roboto;
+}
+
+body {
+    flex: 1
+}
+.section1 {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.hero_main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero_secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+.hero_text {
+    inline-size: 400px;
+}
+
+.title {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content:space-between;
+}
+
+.sign_up {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.dog {
+    height: 250px;
+    width: 500px;
+}
+
+.second_title {
+    display: flex;
+    justify-content: center;
+}
+
+.section2 {
+    padding: 150px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 100px;
+    margin-top: 0px;
+}
+
+.pictures {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+}
+
+
+.plant {
+    width: 100px;
+    height: 100px;
+    padding-left: 60px;
+}
+
+.text {
+    display: flex;
+    text-align: center;
+}
+
+
+.section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 202px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.Ghandi {
+    display: flex;
+    justify-content: end;
+}
+
+.section4 {
+    padding: 100px;
+}
+
+.call {
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 24px;
+    margin-right: 100px;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    color:#E5E7EB
+}
